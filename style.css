@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: 100vh;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	background: #000;
+}
+.new-container{
+	background: white;
+}
+.toggle-container{
+	background: white;
+	width: 120px;
+	height: 60px;
+	border-radius: 60px;
+}
+
+.newtoggle-container{
+	background: #000;
+}
+
+
+.toggle-child{
+	height: 50px;
+	width: 50px;
+	background: #000;
+	border-radius: 100%;
+	margin-top: 4px;
+	margin-left: 4px;
+	transition: .5s;
+	transition-timing-function: ease-in-out;
+}
+.toggle-change{
+	transform:translateX(60px) ;
+	background-color: white;
+}
+
